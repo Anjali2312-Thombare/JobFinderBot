@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip jobfinderbot.zip jobfinderbot\/app.json jobfinderbot\/entities\/*.json jobfinderbot\/intents\/*.json jobfinderbot\/traits\/*.json jobfinderbot\/utterances\/*.json jobfinderbot\/composer\/*.json",
+    "name": "jobfinderbot",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "reviews",
+    "entities": [
+        "company_name:company_name"
+    ]
+}

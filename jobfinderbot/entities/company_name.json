@@ -1,0 +1,120 @@
+{
+    "name": "company_name",
+    "roles": [
+        "company_name"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Adidas",
+            "synonyms": [
+                "adidas",
+                "adidas company"
+            ]
+        },
+        {
+            "keyword": "Beautify",
+            "synonyms": [
+                "Beautify",
+                "beautify company"
+            ]
+        },
+        {
+            "keyword": "Domino",
+            "synonyms": [
+                "Domino",
+                "dimino company",
+                "dominos"
+            ]
+        },
+        {
+            "keyword": "Facebook",
+            "synonyms": [
+                "Facebook",
+                "facebook",
+                "facebook company"
+            ]
+        },
+        {
+            "keyword": "Marshal",
+            "synonyms": [
+                "Marshal",
+                "marhsel",
+                "marshel company"
+            ]
+        },
+        {
+            "keyword": "Microsoft",
+            "synonyms": [
+                "Microsoft",
+                "microsoft company"
+            ]
+        },
+        {
+            "keyword": "Papa john",
+            "synonyms": [
+                "Papa john",
+                "papa john"
+            ]
+        },
+        {
+            "keyword": "Rite aid",
+            "synonyms": [
+                "Rite aid"
+            ]
+        },
+        {
+            "keyword": "TedTalk",
+            "synonyms": [
+                "TedTalk",
+                "ted talk"
+            ]
+        },
+        {
+            "keyword": "Zara",
+            "synonyms": [
+                "Zara"
+            ]
+        },
+        {
+            "keyword": "amazon",
+            "synonyms": [
+                "amazon"
+            ]
+        },
+        {
+            "keyword": "devpost",
+            "synonyms": [
+                "devpost"
+            ]
+        },
+        {
+            "keyword": "doordarsh",
+            "synonyms": [
+                "doordarsh"
+            ]
+        },
+        {
+            "keyword": "google",
+            "synonyms": [
+                "google",
+                "google company"
+            ]
+        },
+        {
+            "keyword": "grubhub",
+            "synonyms": [
+                "grubhub"
+            ]
+        },
+        {
+            "keyword": "intuit",
+            "synonyms": [
+                "intuit"
+            ]
+        }
+    ]
+}

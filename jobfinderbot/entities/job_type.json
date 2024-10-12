@@ -1,0 +1,25 @@
+{
+    "name": "job_type",
+    "roles": [
+        "job_type"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "full time",
+            "synonyms": [
+                "full time",
+                "ull time"
+            ]
+        },
+        {
+            "keyword": "part time",
+            "synonyms": [
+                "part time"
+            ]
+        }
+    ]
+}

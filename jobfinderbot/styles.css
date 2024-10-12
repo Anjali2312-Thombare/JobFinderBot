@@ -1,0 +1,342 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('background.jpg'); /* Replace with your desired background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Side Panel Styles */
+.side-panel {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 15px 0;
+}
+
+.nav-menu button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.nav-menu button:hover {
+    background-color: #0056b3;
+}
+
+/* Main Chat Styles */
+.main-chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.theme-toggle {
+    display: flex;
+    align-items: center;
+}
+
+/* Toggle Switch Styles */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Chatbox Styles */
+.chatbox {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(241, 241, 241, 0.8);
+    position: relative;
+    overflow-y: auto;
+
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.text {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 18px;
+    max-width: 70%;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.user-message .text {
+    background-color: #f1f1f1;
+    color: #333;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bot-message .text {
+    background-color: #007bff;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f7f8fa;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#userInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#sendBtn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sendBtn:hover {
+    background-color: #0056b3;
+}
+
+#sendBtn img {
+    width: 20px;
+    height: 20px;
+}
+
+.chatbox::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chatbox::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.chatbox::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    background-image: url('dark-background.jpg'); /* Replace with your desired dark mode background image */
+}
+
+.container.dark-mode .side-panel {
+    background-color: rgba(30, 30, 30, 0.9);
+    color: #ffffff;
+}
+
+.container.dark-mode .nav-menu button {
+    background-color: #555555;
+}
+
+.container.dark-mode .nav-menu button:hover {
+    background-color: #333333;
+}
+
+.container.dark-mode .main-chat {
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+.container.dark-mode .header {
+    background-color: #333333;
+}
+
+.container.dark-mode .chatbox {
+    background-color: rgba(46, 46, 46, 0.8);
+}
+
+.container.dark-mode .text {
+    color: #ffffff;
+}
+
+.container.dark-mode .user-message .text {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.container.dark-mode .input-container {
+    background-color: #2e2e2e;
+}
+
+.container.dark-mode #sendBtn {
+    background-color: #555555;
+}
+
+.container.dark-mode #sendBtn:hover {
+    background-color: #333333;
+}
+
+/* Typing Indicator Styles */
+.typing-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.typing-dots span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #555;
+    border-radius: 50%;
+    margin: 0 2px;
+    animation: blink 1s infinite both;
+}
+
+.typing-dots span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.typing-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes blink {
+    0%, 80%, 100% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .side-panel {
+        display: none;
+    }
+    .main-chat {
+        width: 100%;
+    }
+}

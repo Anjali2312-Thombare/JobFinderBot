@@ -1,0 +1,109 @@
+{
+    "name": "state",
+    "roles": [
+        "state"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Arizona",
+            "synonyms": [
+                "Arizona",
+                "arizona"
+            ]
+        },
+        {
+            "keyword": "Austin",
+            "synonyms": [
+                "Austin",
+                "austin"
+            ]
+        },
+        {
+            "keyword": "Brazil",
+            "synonyms": [
+                "Brazil",
+                "brazil"
+            ]
+        },
+        {
+            "keyword": "California",
+            "synonyms": [
+                "California",
+                "california"
+            ]
+        },
+        {
+            "keyword": "DC",
+            "synonyms": [
+                "DC",
+                "dc"
+            ]
+        },
+        {
+            "keyword": "Florida",
+            "synonyms": [
+                "Florida",
+                "florida"
+            ]
+        },
+        {
+            "keyword": "India",
+            "synonyms": [
+                "India",
+                "india"
+            ]
+        },
+        {
+            "keyword": "New Jersey",
+            "synonyms": [
+                "New Jersey",
+                "new jersey"
+            ]
+        },
+        {
+            "keyword": "New York",
+            "synonyms": [
+                "New York",
+                "new york"
+            ]
+        },
+        {
+            "keyword": "New York City",
+            "synonyms": [
+                "New York City",
+                "new york city"
+            ]
+        },
+        {
+            "keyword": "Omaha",
+            "synonyms": [
+                "Omaha",
+                "omaha"
+            ]
+        },
+        {
+            "keyword": "San Francisco",
+            "synonyms": [
+                "San Francisco",
+                "san francisco"
+            ]
+        },
+        {
+            "keyword": "Virginia",
+            "synonyms": [
+                "Virginia",
+                "virginia"
+            ]
+        },
+        {
+            "keyword": "seattle",
+            "synonyms": [
+                "seattle"
+            ]
+        }
+    ]
+}

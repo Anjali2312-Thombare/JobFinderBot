@@ -1,0 +1,148 @@
+{
+    "name": "job_role",
+    "roles": [
+        "job_role"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Analyst",
+            "synonyms": [
+                "Analyst",
+                "data",
+                "data analyst",
+                "data engineer",
+                "senior systems analyst",
+                "systems analyst"
+            ]
+        },
+        {
+            "keyword": "Architect",
+            "synonyms": [
+                "Architect",
+                "chief architect",
+                "software architect"
+            ]
+        },
+        {
+            "keyword": "Backend Developer",
+            "synonyms": [
+                "Backend Developer"
+            ]
+        },
+        {
+            "keyword": "Cloud engineer",
+            "synonyms": [
+                "Cloud engineer",
+                "cloud",
+                "cloud architect",
+                "cloud computing engineer",
+                "cloud consultant",
+                "cloud services developer",
+                "cloud system administrator",
+                "cloud systems engineer"
+            ]
+        },
+        {
+            "keyword": "Cyber Security",
+            "synonyms": [
+                "Cyber Security",
+                "cyber security"
+            ]
+        },
+        {
+            "keyword": "Devops Engineer",
+            "synonyms": [
+                "devops engineer"
+            ]
+        },
+        {
+            "keyword": "Front-end developer",
+            "synonyms": [
+                "front end developer"
+            ]
+        },
+        {
+            "keyword": "Full-stack developer",
+            "synonyms": [
+                "Full-stack developer"
+            ]
+        },
+        {
+            "keyword": "Graphic designer",
+            "synonyms": [
+                "Graphic designer",
+                "graphic designer"
+            ]
+        },
+        {
+            "keyword": "Internship",
+            "synonyms": [
+                "Internship",
+                "intenship"
+            ]
+        },
+        {
+            "keyword": "Marketing",
+            "synonyms": [
+                "Marketing",
+                "digital marketing trainee",
+                "marketing exexutive",
+                "marketing manager",
+                "sales and marketing engineer",
+                "sales and marketing specialist",
+                "social media marketing"
+            ]
+        },
+        {
+            "keyword": "Network Engineer",
+            "synonyms": [
+                "Network Engineer",
+                "network",
+                "network analyst",
+                "network operations engineer",
+                "network technician"
+            ]
+        },
+        {
+            "keyword": "Project manager",
+            "synonyms": [
+                "project",
+                "project manager"
+            ]
+        },
+        {
+            "keyword": "Software Developer",
+            "synonyms": [
+                "Software Developer",
+                "game developer",
+                "junior software developer",
+                "senior software engineersenior software developer"
+            ]
+        },
+        {
+            "keyword": "Web developer",
+            "synonyms": [
+                "Web developer",
+                "front-end developer",
+                "web designer",
+                "web development manager"
+            ]
+        },
+        {
+            "keyword": "front-end designer",
+            "synonyms": [
+                "front-end designer"
+            ]
+        },
+        {
+            "keyword": "security",
+            "synonyms": [
+                "security"
+            ]
+        }
+    ]
+}

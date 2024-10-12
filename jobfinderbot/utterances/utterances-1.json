@@ -1,0 +1,89 @@
+{
+    "utterances": [
+        {
+            "text": "Do you  have any opening for Full time project manager",
+            "entities": [
+                {
+                    "entity": "job_type:job_type",
+                    "start": 30,
+                    "end": 39,
+                    "body": "ull time ",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "neutral"
+                }
+            ],
+            "intent": "Job_search"
+        },
+        {
+            "text": "Do you have information about Facebook",
+            "entities": [
+                {
+                    "entity": "company_name:company_name",
+                    "start": 30,
+                    "end": 38,
+                    "body": "Facebook",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "neutral"
+                }
+            ],
+            "intent": "Job_search"
+        },
+        {
+            "text": "Do you have review for Facebook",
+            "entities": [
+                {
+                    "entity": "company_name:company_name",
+                    "start": 23,
+                    "end": 31,
+                    "body": "Facebook",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "neutral"
+                }
+            ],
+            "intent": "reviews"
+        },
+        {
+            "text": "Hi Robin",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "neutral"
+                }
+            ],
+            "intent": "welcome"
+        },
+        {
+            "text": "How are you Robin",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "neutral"
+                }
+            ],
+            "intent": "welcome"
+        },
+        {
+            "text": "I'm looking for a full-time software engineer job in California.",
+            "entities": [],
+            "traits": [],
+            "intent": "Job_search"
+        }
+    ]
+}
